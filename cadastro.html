@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Cadastro de Animal</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="navbar">
+    <img src="imagens/logo.png" class="logo-small" alt="Logo">
+    <ul>
+      <li><a href="admin.html" class="active">Admin</a></li>
+    </ul>
+  </header>
+  <main style="padding: 20px;">
+    <h2>Cadastro de Novo Animal</h2>
+    <form id="formCadastro">
+      <input type="text" placeholder="Nome do Animal" required><br>
+      <input type="text" placeholder="Idade" required><br>
+      <input type="text" placeholder="Raça" required><br>
+      <input type="text" placeholder="Tamanho" required><br>
+      <input type="text" placeholder="Personalidade" required><br>
+      <textarea placeholder="Saúde e necessidades especiais"></textarea><br>
+      <input type="file" accept="image/*"><br><br>
+      <button type="submit" class="btn">Cadastrar</button>
+    </form>
+  </main>
+</body>
+</html>
