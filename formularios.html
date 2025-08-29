@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="scripts.js" defer></script>
+
+  <title>Formulários de Adoção</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="navbar">
+    <img src="imagens/logo.png" class="logo-small" alt="Logo">
+    <ul class="d-flex gap-3 list-unstyled mb-0">
+      <li><a id="admin" href="admin.html" class="active">Admin</a></li>
+    </ul>
+  </header>
+
+  <main class="container py-4">
+    <h2 class="mb-4">Formulários Recebidos</h2>
+    <div class="table-responsive">
+      <table class="table table-bordered table-striped">
+        <thead class="table-success">
+          <tr>
+            <th>Nome</th>
+            <th>Contato</th>
+            <th>Animal</th>
+            <th>Motivo</th>
+          </tr>
+        </thead>
+        <tbody id="formularios-tbody">
+          <tr>
+            <td>Maria Silva</td>
+            <td>(47) 99999-0000</td>
+            <td>Bolt</td>
+            <td>Quero um amigo para meus filhos</td>
+          </tr>
+          <tr>
+            <td>João Pedro</td>
+            <td>(47) 98888-1111</td>
+            <td>Jonas</td>
+            <td>Já tive cachorro e amo animais</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </main>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
